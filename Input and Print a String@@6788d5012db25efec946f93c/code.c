@@ -6,6 +6,6 @@ char* welcome() {
 
 int main() {
     char a[];
-    printf("You entered: %c", a);
+    printf("You entered: %s", a);
     return 0;
 }
