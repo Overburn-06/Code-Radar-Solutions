@@ -8,7 +8,11 @@ int main() {
     char a[50];
     char c[50];
     int b;
-    scanf("%c%d%c",&a,&b,&c);
+    scanf("%c",&a);
+    scanf("%d",&b);
+    scanf("%c",&c);
     printf("Name: %c ",a);
+    printf("Age: %c ",b);
+    printf("Hobby: %c ",c);
     return 0;
 }
