@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    if(a&&b<0){
+    int a;
+    scanf("%d%d",&a);
+    if(a<0){
         printf("True");
     }
     else{
