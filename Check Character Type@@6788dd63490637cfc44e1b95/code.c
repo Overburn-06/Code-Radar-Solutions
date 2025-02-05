@@ -10,9 +10,9 @@ int main() {
     if (ch=='a' || ch=='e' || ch=='i'|| ch=='o'|| ch=='u'|| ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'){
         printf("Vowel");
     }
-    else if (ch!='a' || ch!='e' || ch!='i'|| ch!='o'|| ch!='u' || ch!='A' || ch!='E' || ch!='I'|| ch!='O' ch!= 'U'){
-        printf("Consonant");
-    }
+    // else if (ch!='a' || ch!='e' || ch!='i'|| ch!='o'|| ch!='u' || ch!='A' || ch!='E' || ch!='I'|| ch!='O' ch!= 'U'){
+    //     printf("Consonant");
+    // }
     // else if(ch>=1){
     //     printf("Digit");
     // }
