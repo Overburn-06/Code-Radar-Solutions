@@ -23,6 +23,17 @@ int main() {
             printf("%d",a);
         }
     }
+    else if (c>a){
+        if(c>b){
+            printf("%d",c);
+        }
+        else{
+            printf("%d",b);
+        }
+    }
+    else if(a==b && b==c){
+        printf("%d",a);
+    }
    
     return 0;
 }
