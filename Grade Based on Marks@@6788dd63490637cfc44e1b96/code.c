@@ -6,16 +6,16 @@ char* welcome() {
 
 int main() {
     int a;
-    if (100<a>=90){
+    if (a<100 && a>=90){
         printf("A");
     }
-    else if(90<a>=80){
+    else if(a<90 && a>=80){
         printf("B");
     }
-    else if(80<a>=70){
+    else if(a<80 && a>=70){
         printf("C");
     }
-    else if(70<a>=60){
+    else if(a<70 && a>=60){
         printf("D");
     }
     else{
