@@ -6,6 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
+    scanf("%d",&a);
     if (a<100 && a>=90){
         printf("A");
     }
