@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    if (a>=90){
+    if (100<a>=90){
         printf("A");
     }
     else if(90<a>=80){
