@@ -7,18 +7,22 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
-    if(a>b && a>c){
-        printf("%d",a);
+    if(a>b){
+        if(a>c){
+            printf("%d",a);
+        }
+        else{
+            printf("%d",c);
+        }
     }
-    else if (b>c && b>a){
-        printf("%d",b);
+    else if (b>c){
+        if(b>a){
+            printf("%d",b);
+        }
+        else{
+            printf("%d",a);
+        }
     }
-    else if (c>a && c>b){
-        printf("%d",c);
-    }
-    else if(a==b && b==c){
-        printf("%d",a);
-    }
-  
-return 0;
+   
+    return 0;
 }
