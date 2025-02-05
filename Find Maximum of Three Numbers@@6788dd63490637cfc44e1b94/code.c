@@ -11,10 +11,10 @@ int main() {
         printf("%d"a);
     }
     else if (b>c && b>a){
-        printf("%d",b)
+        printf("%d",b);
     }
     else if (c>a && c>b){
-        printf("%d",c)
+        printf("%d",c);
     }
 
    
