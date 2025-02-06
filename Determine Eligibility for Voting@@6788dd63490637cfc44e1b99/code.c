@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     if(a>=18){
-        printf("Eligibe");
+        printf("Eligible");
     }
     else{
         printf("Not Eligible");
