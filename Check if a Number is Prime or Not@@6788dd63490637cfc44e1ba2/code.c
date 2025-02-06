@@ -12,6 +12,9 @@ int main() {
             z=1;
             break;
         }
+        else{
+            z=0;
+        }
 
     }
     if(z==0){
