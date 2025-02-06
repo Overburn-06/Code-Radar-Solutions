@@ -23,7 +23,7 @@ int main() {
         printf("Fail");
     }
     else{
-        printf("Invaid Grade");
+        printf("Invaid grade");
     }
     
     return 0;
