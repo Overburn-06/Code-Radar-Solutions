@@ -10,6 +10,7 @@ int main() {
     for(i=1,i==a,i++){
         if(a%i==0){
             z=1;
+            break;
         }
 
     }
