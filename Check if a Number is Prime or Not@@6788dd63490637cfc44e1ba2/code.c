@@ -7,14 +7,12 @@ char* welcome() {
 int main() {
     int a,i,z=0;
     scanf("%d",&a);
-    for(i=1;i<a-1;i++){
+    for(i=2;i<a-1;i++){
         if(a%i==0){
             z=1;
             break;
         }
-        else{
-            z=0;
-        }
+        
 
     }
     if(z==0){
