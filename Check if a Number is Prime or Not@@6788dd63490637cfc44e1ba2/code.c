@@ -14,10 +14,10 @@ int main() {
         }
 
     }
-    if(z==1){
+    if(z==0){
         printf("Prime");
     }
-    else if(z==0){
+    else if(z==1){
         printf("Not Prime");
     }
     return 0;
