@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&a);
     for ( i = 1; i<=a; i=i+1)
     {
-        printf("%d\",i);
+        printf("%d",i);
     }
     
     return 0;
