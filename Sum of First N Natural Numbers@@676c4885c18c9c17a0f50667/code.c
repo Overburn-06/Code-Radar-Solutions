@@ -9,9 +9,9 @@ int main(){
     scanf("%d",&a);
     for ( i = 1; i<=a; i=i+1)
     {
-        printf("%d",sum);
         sum=sum+i;
     }
+    printf("%d",sum);
     
     return 0;
 }
