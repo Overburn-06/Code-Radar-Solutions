@@ -1,7 +1,13 @@
 // Your code here...
-int fibonacciSeries(int n){
-    if(n==1||n==2) return 1 ;
-    printf("%d ",fibo);
-    int fibo= fibonacciSeries(n-1) + fibonacciSeries(n-2) ;
+void fibonacciSeries(int n){
+    int a=0;
+    int b=1;
+    int sum;
+    for(i=1; i<=n-2;i++){
+        sum=a+b;
+        a=b;
+        b=sum;
+        printf("%d",sum);
+    }
     
 }
