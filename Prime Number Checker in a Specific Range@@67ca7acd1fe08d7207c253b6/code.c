@@ -1,6 +1,6 @@
 void printPrimesInRange(int a,int b){
     int z=1;
-    for(i=a;i<b;i++){
+    for(int i=a;i<b;i++){
         if(z%i==0){
             break;
         }
