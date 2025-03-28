@@ -1,4 +1,4 @@
-void selectioSort(int arr[],int n){
+void selectionSort(int arr[],int n){
     for(int i=0;i<n;i++){
         int min= arr[0];
         int minidx = -1;
