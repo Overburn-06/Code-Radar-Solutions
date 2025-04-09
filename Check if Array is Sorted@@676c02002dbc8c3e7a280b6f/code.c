@@ -25,7 +25,7 @@ int main(){
             break;
         }
     }
-    if(issorted){
+    if(issorted==1){
         printf("Sorted");
 
     }
