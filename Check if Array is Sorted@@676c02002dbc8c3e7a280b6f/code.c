@@ -24,7 +24,7 @@ int main(){
             issorted=0;
             break;
         }
-        if(arr[i]==carr[i]){
+        else if(arr[i]==carr[i]){
             issorted=1;
         }
     }
