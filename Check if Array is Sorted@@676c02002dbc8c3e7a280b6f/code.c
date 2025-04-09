@@ -24,6 +24,9 @@ int main(){
             issorted=0;
             break;
         }
+        if(arr[i]==carr[j]){
+            issorted=1
+        }
     }
     if(issorted==1){
         printf("Sorted");
