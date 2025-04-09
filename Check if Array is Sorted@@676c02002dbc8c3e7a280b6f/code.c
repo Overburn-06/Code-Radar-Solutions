@@ -25,7 +25,7 @@ int main(){
             break;
         }
         if(arr[i]==carr[j]){
-            issorted=1
+            issorted=1;
         }
     }
     if(issorted==1){
