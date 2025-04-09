@@ -15,11 +15,21 @@ int main(){
                 arr[i]=arr[j];
                 arr[j]=temp;
             }
-            if(arr[i]!=carr[j]){
-                printf("Not Sorted");
-                break;
-            }
-            // else printf("Sorted");
+            
         }
     }
+    int issorted=1;
+    for(int i=0;i<n;i++){
+        if(arr[i]!=carr[i]){
+            issorted=0;
+            break;
+        }
+    }
+    if(issorted){
+        printf("Sorted");
+
+    }
+    else printf("Not Sorted");
 }
+
+
