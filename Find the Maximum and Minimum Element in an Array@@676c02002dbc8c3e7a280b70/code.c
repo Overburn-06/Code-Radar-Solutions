@@ -13,7 +13,7 @@
             arr[i+1]=temp;
         }
     }
-    int max= arr[n];
+    int max= arr[n-1];
     int min=arr[0];
     printf("%d %d",min,max);
         
