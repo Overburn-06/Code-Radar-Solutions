@@ -7,11 +7,13 @@
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]>arr[i+1]){
+       for(int j=i+1;j<n;j++){
+         if(arr[i]>arr[i+1]){
             int temp=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=temp;
+            arr[i]=arr[j];
+            arr[j]=temp;
         }
+       }
     }
     int max= arr[n-1];
     int min=arr[0];
