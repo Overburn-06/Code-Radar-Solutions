@@ -6,8 +6,8 @@ int is_prime(int x){
         if(x%i==0){
             return 0;
         }
-        else return 1;
     }
+    return 1;
 }
 int main(){
     int n;
