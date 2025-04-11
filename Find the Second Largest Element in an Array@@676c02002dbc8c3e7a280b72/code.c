@@ -12,7 +12,7 @@ int main(){
             if(max<arr[i]){
                max=arr[i];
             }
-            if(s_max<arr[i] && arr[i]!=max){
+            if(s_max<arr[i] && arr[i]<max){
                 
                 s_max=arr[i];
             }
