@@ -6,17 +6,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max=0;
+    int max=arr[0];
     int s_max=-1;
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]>arr[j]){
+            if(max<arr[i]){
                max=arr[i];
             }
-            if(arr[i]>arr[j] && s_max<max){
+            if(s_max<arr[i] && arr[i]!=max){
+                
                 s_max=arr[i];
             }
-        }
     }
    
     printf("%d",s_max);
