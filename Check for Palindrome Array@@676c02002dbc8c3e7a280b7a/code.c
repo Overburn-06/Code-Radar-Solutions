@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i){
         scanf("%d",&arr[i]);
     }
-    int pallindrome=0;
+    int pallindrome=1;
     for(int i=0;i<n/2;i++){
         if(arr[i]!=arr[n-1-i]){
             pallindrome=0;
