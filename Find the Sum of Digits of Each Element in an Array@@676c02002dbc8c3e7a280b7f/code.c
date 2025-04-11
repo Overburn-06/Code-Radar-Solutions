@@ -8,6 +8,7 @@ int main(){
     }
     int sum=0;
     int digit;
+    int n_arr[n];
     
     for(int i =0;i<n;i++){
         while(arr[i]!=0){
@@ -15,7 +16,7 @@ int main(){
         sum+= digit;
         arr[i]/10;
         }
-        arr[i]=sum;
+        n_arr[i]=sum;
     }
     for(int i=0;i<n;i++){
         printf("%d",sum);
