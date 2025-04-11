@@ -9,7 +9,7 @@ int main(){
     int prime=0;
     // for(int i=0;i<n;i++){
         for(int j=0;j<arr[j];j++){
-            if((arr[j]%j!=0) && (j!=0) && (j!=1)){
+            if(arr[j]%j!=0 && j!=0 && j!=1){
                 prime=prime+1;
             }
         }
