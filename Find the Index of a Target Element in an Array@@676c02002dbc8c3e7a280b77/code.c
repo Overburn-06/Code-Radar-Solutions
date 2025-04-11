@@ -14,6 +14,6 @@ int main(){
             t_index= i;
         }
     }
-    printf("%d"t_index);
+    printf("%d",t_index);
 
 }
