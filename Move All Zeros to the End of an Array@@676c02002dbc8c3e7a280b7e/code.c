@@ -11,7 +11,7 @@ int main(){
             if(arr[i]!=0){
                 int temp=arr[i];
                 arr[j]=arr[i];
-                arr[j]=temp;
+                arr[i]=temp;
             }
         }
     }
