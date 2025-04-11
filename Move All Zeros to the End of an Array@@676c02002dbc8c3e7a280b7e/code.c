@@ -10,7 +10,7 @@ int main(){
         for(int j=0; j<n;j++){
             if(arr[i]!=0){
                 int temp=arr[i];
-                arr[i]=arr[j];
+                arr[j]=arr[i];
                 arr[j]=temp;
             }
         }
