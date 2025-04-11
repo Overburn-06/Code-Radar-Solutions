@@ -9,7 +9,7 @@ int main(){
         r_arr[i]=arr[n-1-i];
     }
     int pallindrome=0;
-    for(int i=0;i<n;i){
+    for(int i=0;i<n;i++){
         if(arr[i]=r_arr[i]){
             pallindrome=1;
         }
