@@ -5,7 +5,7 @@ int main(){
     int arr[n];
     int r_arr[n];
     for(int i=0;i<n;i){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
         r_arr[i]=arr[n-1-i];
     }
     int pallindrome=0;
